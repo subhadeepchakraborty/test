@@ -42,7 +42,8 @@
 <input type="text" placeholder="PLACE/CITY of event" name="place">
 <br><br><br>
 <input id="button1"  value="ADD" type="submit" />
-<input type="submit"  id="submit" name="submit" value="Click" />
+<a href="https://test0011114.herokuapp.com/event.php" ><input id="button2"  value="ADD" type="button" /></a>
+
 </form>
 </div>
 
