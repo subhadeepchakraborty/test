@@ -1,0 +1,251 @@
+body
+{
+background-image: url('back.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+
+
+
+
+#block
+{
+background-color:black;
+filter: opacity(70%);
+width:60%;
+height:100%;
+border:10px double #D4AF37;
+border-width: 5px;
+border-radius:50px;
+}
+h1
+{
+font-size: 50px;
+color:white;
+}
+input[type="text"]
+{
+filter: opacity(100%);
+margin-top: 50px;
+height: 50px;
+width: 50%;
+font-size: 25px;
+font-color:white;
+border:5px solid grey;
+background: white;
+}
+#calender1:focus,#calender2:focus
+{
+  border-bottom:8px solid orange;
+  border-left:8px solid orange;
+
+
+}
+#calender1
+{
+  background-image:url('ca.jpg');
+  background-size:40px;
+  background-repeat: no-repeat;
+  background-position: right;
+  width:150px;
+  border: 1px solid black;
+  height: 40px;
+  padding-top: 10px;
+  font-size: 17px;
+
+}
+#calender2
+{
+
+  font-size: 17px;
+  background-image:url('ca.jpg');
+  background-size:40px;
+  background-repeat: no-repeat;
+  background-position: right;
+  width:150px;
+  height: 40px;
+  padding-top: 10px;
+  border: 1px solid black;
+
+}
+
+
+#lc
+{
+display:inline-block;
+font-family: cursive;
+font-size: 30px;
+width:900px;
+height:150px;
+}
+#time:focus
+{
+  border-bottom:8px solid orange;
+  border-left:8px solid orange;
+
+
+}
+#time
+{
+  font-size: 25px;
+margin: 0px;
+width:150px;
+height: 40px;
+border: 1px solid black;
+}
+#timeblock
+{
+  margin-top: 25px;
+font-size: 30px;
+width:60%;
+}
+select:hover
+{
+  border-bottom:8px solid orange;
+  border-left:8px solid orange;
+
+
+}
+
+select
+{
+right: 50%;
+width: 250px;
+
+height: 100px;
+font-size: 30px;
+border:1px solid black;
+}
+#button:hover
+{
+background-color:blue;
+color: white;
+border:5px solid #D4AF37;
+
+
+}
+
+
+
+#button
+{
+  border:3px solid black;
+border-radius: 30%;
+box-sizing: border-box;
+width: 130px;
+font-size: 15px;
+height: 40px;
+float: right;
+}
+
+input[type="text"]:hover
+{
+border-bottom:8px solid orange;
+border-left:8px solid orange;
+background-image:url('white.png');
+
+
+}
+#last
+{
+margin-bottom: 50px;
+margin-right: 50px;
+
+}
+
+@media screen and (max-width:1000px)
+ {
+#t1
+{
+font-size: 15px;
+}
+h1
+{
+font-size: 25px;
+
+
+}
+#lc
+{
+  width:25%;
+font-size: 20px;
+
+}
+#timeblock
+{
+  width:25%;
+  font-size: 20px;
+}
+select
+{
+width:40%;
+height: 20%;
+font-size: 20px;
+}
+
+
+#button
+{
+
+width:70px;
+font-size:8px;
+height: 30px;
+}
+#last
+{
+width:40%;
+margin-bottom: 30%;
+}
+}
+
+
+
+
+@media screen and (max-width:400px)
+ {
+#t1
+{
+font-size: 10px;
+}
+h1
+{
+font-size: 25px;
+}
+
+
+#lc
+{
+  width:60%;
+font-size: 20px;
+
+}
+#timeblock
+{
+  width:60%;
+  font-size: 20px;
+}
+select
+{
+width:40%;
+height: 20%;
+font-size: 20px;
+}
+
+#button1
+{
+width:40%;
+
+}
+#button1
+{
+width:40%;
+font-size:20px;
+}
+#last
+{
+width:40%;
+margin-bottom: 20%;
+}
+}
