@@ -4,7 +4,7 @@
 <html>
 <link href="event.css" rel="stylesheet">
 <head>
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"></head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /></head>
 <center>
 
 <h1>
