@@ -3,25 +3,24 @@
 <!DOCTYPE html>
 <html>
 <link href="event.css" rel="stylesheet">
-
-</head>
-
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"></head>
 <center>
 
 <h1>
 <b> ADMIN PANEL</b>
 </h1>
 </center>
-<body bgcolor="#ff5e6c">
+<body bgcolor="white">
 <br><br><br><br>
 <center>
 <div id="block">
 
 <form name="form" action="event.php" method="post">
 
-<input type="text" placeholder="TITLE OF EVENT" name="title_of_event"><br><br><br><br><br>
-<input type="text" placeholder="DESCRIPTION OF EVENT" name="description_of_event"><br><br><br><br><br>
-<input type="text" placeholder="ARTIST(s) OF EVENT" name="artists_of_event"><br><br><br><br><br>
+<input type="text" id="t1" placeholder="TITLE OF EVENT" name="title_of_event"><br><br><br><br><br>
+<input type="text" id="t1" placeholder="DESCRIPTION OF EVENT" name="description_of_event"><br><br><br><br><br>
+<input type="text" id="t1" placeholder="ARTIST(s) OF EVENT" name="artists_of_event"><br><br><br><br><br>
 <div id="lc">
 <label >&nbspStart Date:&nbsp&nbsp</label></font><input name="startdate" type="date" id="calender1" name="calender1">
 
@@ -39,11 +38,14 @@
   <option value="CURRENCY(amount)"><b>CURRENCY(amount)</b></option>
 
 </select><br><br>
-<input type="text" placeholder="PLACE/CITY of event" name="place">
-<br><br><br>
-<input id="button1"  value="ADD" type="submit" />
-<a href="https://test0011114.herokuapp.com/event.php" ><input id="button2"  value="ADD" type="button" /></a>
 
+<input type="text" id="t1"placeholder="PLACE/CITY of event" name="place">
+<br><br><br>
+<div id="last">
+  <input id="button"  value="ADD" type="submit" />
+  <a href="https://test0011114.herokuapp.com/event.php" ><input id="button"  value="ADD ANOTHER" type="button" /></a>
+
+</div>
 </form>
 </div>
 
