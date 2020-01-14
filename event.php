@@ -30,7 +30,7 @@
 
 <br>
 <center>
-<div id="timeblock"><font color="white">TIME FOR EVENT:&nbsp&nbsp</font><input name="time1" id="time"  type="number" placeholder="00" min="0" max="24">
+<div id="timeblock"><font color="white"><left>TIME FOR EVENT:&nbsp&nbsp</font></left><input name="time1" id="time"  type="number" placeholder="00" min="0" max="24">
   <input name="time2" id="time" placeholder="00" min="0"  type="number" max="60"><small><font color="white">
     <br>(TIME WILL BE IN 24hr FORMAT)</small><br></div>
 </center></font><br><br>
