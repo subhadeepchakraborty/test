@@ -5,19 +5,16 @@
 <link href="event.css" rel="stylesheet">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" /></head>
-<center>
 
-<h1>
-<font><b> ADMIN PANEL</b></font>
-</h1>
-</center>
 <body >
 
 <center>
 <div id="block">
-
+  <h1>
+  <font><b> ADMIN PANEL</b></font>
+  </h1>
 <form name="form" action="event.php" method="post">
-<br><br>
+<br>
 <input type="text" id="t1" placeholder="TITLE OF EVENT" class="rr" name="title_of_event"><br><br>
 <input type="text" id="t1" placeholder="DESCRIPTION OF EVENT" name="description_of_event" ><br><br><br>
 <input type="text" id="t1" placeholder="ARTIST(s) OF EVENT" name="artists_of_event"><br><br><br>
@@ -68,11 +65,7 @@ $password="AtMdtojawW";
 $dbname="qsMyHkfpFx";
 error_reporting(0);
 $conn=mysqli_connect($servername,$username,$password,$dbname);
-if($conn)
-{
-echo "s";
 
-}
 $title = $_POST['title_of_event'];
 $description=$_POST['description_of_event'];
 $artist=$_POST['artists_of_event'];
