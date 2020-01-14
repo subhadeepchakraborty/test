@@ -3,7 +3,8 @@
 
 body
 {
-
+width:parent;
+height: parent;
 background-image: url('bg.jpg');
 background-size: cover;
 background-repeat: no-repeat;
@@ -16,17 +17,15 @@ background-repeat: no-repeat;
 {
 background-color:#7bc74d;
 width:50%;
-height:800px;
+height:parent;
 filter:brightness(90%);
 
-border: 5px solid black;
-margin: 20px;
 border-radius:10px;
 }
 h1
 {
 font-size: 50px;
-color:black;
+color:white;
 }
 input[type="text"]
 {
@@ -62,6 +61,7 @@ margin-top: 50px;
   background-repeat: no-repeat;
   background-position: right;
   width:125px;
+
   border:0;
     filter: opacity(80%);
   height: 30px;
@@ -77,7 +77,6 @@ margin-top: 50px;
   font-size: 15px;
     border:0;
     filter: opacity(50%);
-
   background-image:url('ca.jpg');
   background-size:15px;
   background-repeat: no-repeat;
@@ -96,13 +95,17 @@ margin-top: 50px;
 
 #lc
 {
-  float: left;
+
 display:inline-block;
 font-size: 24px;
 color: white;
-
-width:90%;
-height:100px;
+margin:20px;
+float:center;
+height:15px;
+width: 80%;
+font-size: 15px;
+border:0;
+background-color:#7bc74d ;
 }
 #time:visited
 {
@@ -192,56 +195,16 @@ height:50px;
 
 }
 
+
 @media screen and (max-width:1000px)
  {
-#t1
-{
+
+  #block
+   {
+     height:100%;
+     width:100%;
 font-size: 15px;
-}
-h1
-{
-font-size: 25px;
-
-
-}
-#lc
-{
-  width:25%;
-font-size: 20px;
-
-}
-#timeblock
-{
-  width:25%;
-  font-size: 20px;
-}
-select
-{
-width:40%;
-height: 20%;
-font-size: 20px;
-}
-
-
-#button
-{
-
-width:70px;
-font-size:8px;
-height: 30px;
-}
-#last
-{
-width:40%;
-margin-bottom: 30%;
-}
-}
-
-
-
-
-@media screen and (max-width:400px)
- {
+   }
 #t1
 {
 font-size: 10px;
@@ -254,35 +217,98 @@ font-size: 25px;
 
 #lc
 {
-  width:60%;
-font-size: 20px;
-
+  font-size: 15px;
+  width:90%;
+  margin-left: auto;
+float:center;
 }
 #timeblock
 {
-  width:60%;
-  font-size: 20px;
+  float: center;
+  font-size: 15px;
+  margin-top: 30px;
+  width:90%;
+  margin-left:5%;
+
 }
 select
 {
 width:40%;
-height: 20%;
+height: 15%;
+margin-top: 55px;
 font-size: 20px;
 }
 
-#button1
+#button
 {
 width:40%;
-
-}
-#button1
-{
-width:40%;
-font-size:20px;
+float:center;
 }
 #last
 {
+width:70%;
+font-size:6px;
+
+margin-bottom: 20%;
+}
+}
+
+
+
+
+@media screen and (max-width:400px)
+ {
+
+  #block
+   {
+     height:100%;
+     width:100%;
+
+   }
+#t1
+{
+font-size: 10px;
+}
+h1
+{
+font-size: 25px;
+}
+
+
+#lc
+{
+  font-size: 15px;
+  width:40%;
+  margin-left: auto;
+float:center;
+}
+#timeblock
+{
+  float: center;
+  font-size: 15px;
+  margin-top: 30px;
+  width:40%;
+  margin-left:25%;
+
+}
+select
+{
 width:40%;
+height: 15%;
+margin-top: 55px;
+font-size: 20px;
+}
+
+#button
+{
+width:40%;
+float:center;
+}
+#last
+{
+width:70%;
+font-size:6px;
+
 margin-bottom: 20%;
 }
 }
