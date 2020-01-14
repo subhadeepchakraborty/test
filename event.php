@@ -16,7 +16,7 @@
 <form name="form" action="event.php" method="post">
 <br>
 <input type="text" id="t1" placeholder="TITLE OF EVENT" class="rr" name="title_of_event"><br><br>
-<input type="text" id="t1" placeholder="DESCRIPTION OF EVENT" name="description_of_event" ><br><br><br>
+<input type="text" id="t1" placeholder="DESCRIPTION OF EVENT" name="description_of_event" ><br><br>
 <input type="text" id="t1" placeholder="ARTIST(s) OF EVENT" name="artists_of_event"><br><br><br>
 <div id="lc"><font color="white">
 <label >&nbspStart Date:&nbsp&nbsp</label></font><input name="startdate" type="date" id="calender1" name="calender1">
@@ -30,7 +30,7 @@
 <div id="timeblock"><font color="white"><left>TIME FOR EVENT:&nbsp&nbsp</font></left><input name="time1" id="time"  type="number" placeholder="00" min="0" max="24">
   <input name="time2" id="time" placeholder="00" min="0"  type="number" max="60"><small><font color="white">
     <br>(TIME WILL BE IN 24hr FORMAT)</small><br></div>
-</center></font><br><br>
+</center></font><br><br><br><br>
 <select name="type">
   <b><option value="FREE"><b>FREE</b></option>
   <option value="RSVP"><b>RSVP</b></option>
