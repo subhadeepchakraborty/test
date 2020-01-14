@@ -278,40 +278,56 @@ h1
 font-size: 25px;
 }
 
+#calender1,#calender2
+{
 
+width:55%;
+font-size: 15px;
+}
 #lc
 {
   font-size: 15px;
-  width:40%;
-  margin-left: auto;
+  width:60%;
+  margin-left: 10%;
 float:center;
+}
+#time
+{
+  width:20%;
+  font-size: 15px;
+
 }
 #timeblock
 {
   float: center;
   font-size: 15px;
-  margin-top: 30px;
-  width:40%;
-  margin-left:25%;
+  margin-top: 60px;
+  width:90%;
+  margin-left:7%;
 
 }
 select
 {
-width:40%;
-height: 15%;
+width:20%;
+height: 10%;
 margin-top: 55px;
-font-size: 20px;
+font-size:15px;
+margin-left:10%;
+
 }
 
 #button
 {
-width:40%;
+width:25%;
+font-size:7px;
 float:center;
+
 }
 #last
 {
-width:70%;
+width:80%;
 font-size:6px;
+float:center;
 
 margin-bottom: 20%;
 }
